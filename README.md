@@ -11,7 +11,7 @@ Frontend development in progress.Backend logic and data processing will be added
 **Author:**\
 Shamveel C \
 B.Tech CSE\
-NSS College of Engineering Palakkad\
+NSS College of Engineering Palakkad
 
 **License:**\
 MIT License
