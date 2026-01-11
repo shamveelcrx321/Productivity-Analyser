@@ -1,34 +1,17 @@
-Productivity Analyser:
-The Productivity Analyser is a web-based application designed to help users analyze their daily routine and gain insights into their productivity. The project focuses on collecting routine-related inputs and presenting them through a clean and intuitive user interface.
-This project is currently in the frontend development stage and is being built as part of a learning journey in web development.
+#Productivity Analyser:
+A web-based Productivity Analyser designed to collect daily routine inputs and provide insights into user productivity through a clean and intuitive interface.
 
-Features:
-Clean and modern user interface
-Structured form to collect daily routine details
-Responsive and centered layout
-Gradient-based banner design
-User-friendly input fields
+#Technologies:
+-HTML
+-CSS
 
-Technologies Used:
-HTML – Page structure and content
-CSS – Styling, layout, and visual design
+#Status:
+Frontend development in progress.Backend logic and data processing will be added in future updates.
 
-Project Status:
-In Progress
-Frontend UI development completed partially
-Backend logic, productivity analysis, and data storage will be added in future phases
-
-Planned Enhancements:
-JavaScript form validation
-Productivity score calculation
-Result display within the same page
-Backend integration using Python (Flask)
-Database integration for storing user data
-
-Author:
+#Author:
 Shamveel C
-B.Tech Computer Science & Engineering
-NSS College of Engineering
+B.Tech CSE
+NSS College of Engineering Palakkad
 
-License:
-This project is licensed under the MIT License.
+#License:
+MIT License
