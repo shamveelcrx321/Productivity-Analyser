@@ -2,8 +2,8 @@
 A web-based Productivity Analyser designed to collect daily routine inputs and provide insights into user productivity through a clean and intuitive interface.
 
 **Technologies:**\
-+HTML
-+CSS
+*HTML
+*CSS
 
 **Status:**\
 Frontend development in progress.Backend logic and data processing will be added in future updates.
