@@ -1,17 +1,33 @@
-**Productivity Analyser:** \
-A web-based Productivity Analyser designed to collect daily routine inputs and provide insights into user productivity through a clean and intuitive interface.
+**Productivity Analyser** <br>
 
-**Technologies:**\
-*HTML
-*CSS
+Description:<br>
+A web-based application that analyzes daily routines, calculates productivity scores, identifies issues, and stores results for future reference.
 
-**Status:**\
-Frontend development in progress.Backend logic and data processing will be added in future updates.
+Features:<br>
+*Daily routine input analysis
+*Productivity score and level calculation
+*Identification of multiple productivity issues
+*Database-backed result storage
+*Dynamic result display
 
-**Author:**\
-Shamveel C \
-B.Tech CSE\
-NSS College of Engineering Palakkad
+**Tech Stack:**<br>
+*Frontend: HTML, CSS, JavaScript
+*Backend: Python (Flask)
+*Database: SQLite
+*Templating: Jinja2
 
-**License:**\
+**Need for Database:**<br>
+The database is used to store productivity analysis results so that user data can be saved, tracked, and extended for future features such as progress analysis and reports.
+
+**Future Enhancements:**<br>
+*Productivity tracking over time
+*Graphs and analytics dashboard
+*User authentication
+*Machine learning-based insights
+
+**Author**
+*Shamveel C
+*B.Tech CSE
+
+**License:**<br>
 MIT License
