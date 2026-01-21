@@ -1,0 +1,80 @@
+<html lang="EN">
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="description" content="A system that helps to analyse productivity">
+    <meta name="author" content="Shamveel">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>Productivity Analyser Tool</title>
+</head>
+<body >
+    <div class="background"></div>
+    <div class="heading"><H1 class="H1">PRODUCTIVITY ANALYSER </H1>
+        <p align="center" class="para">Optmize your workflow with data-driven insights</p>
+</div>
+<div class="wrap">
+    <div class="box">
+        <form method="POST" action="/analyze"><h2 class="h2">Input your Daily Routine</h2>
+        <div class="subdiv">
+        <div class="inputs1">
+        <label><b>Age(years):</b></label>
+        <input type="number"  id="age" min="5" max="80" name="age" class="inputs" value="{{age}}" ><br>
+        <small id="errorage" class="age0"></small>
+        <label><b>Sleep hours per day:</b></label>
+        <input type="number"  id="sleep" name="sleep"  class="inputs" value="{{sleep}}"><br>
+        <label><b>Study or work hours per day:</b></label>
+        <input type="number"  id="work" name="work" class="inputs" value="{{work}}"><br>
+        <label><b>Break time hours:</b></label>
+        <input type="number"  id="breaks" name="breaks" class="inputs" value="{{breaks}}"><br>
+        </div>
+        <div class="inputs2">
+            <label><b>Role:</b></label>
+        <select class="select" id="role" name="role" class="inputs">
+            <option selected>select</option>
+            <option>Student</option>
+            <option>Working Professional</option>
+            <option>Unemployed</option>
+        </select><br>
+        <label><b>Sleep quality:</b></label>
+        <select class="select" name="quality" class="inputs">
+            <option selected>select</option>
+            <option>Good</option>
+            <option>Average</option>
+            <option>Poor</option>
+        </select><br>
+        <label><b>Phone usage hours:</b></label>
+        <input type="number"  name="screen" class="inputs" value="{{screen}}"><br>
+        <label><b>Physical activity:</b></label>
+        <select class="select" name="activity" class="inputs">
+            <option>Yes</option>
+            <option>No</option>
+        </select><br>
+        </div>
+        </div>
+        <button type="submit" class="button" >Submit</button>
+        </form>
+        {% if score is defined %}
+        {{"Scroll to see result"}}
+        {% endif %}
+</div>
+{% if score is defined %}
+<div class="box"  style="display: flex; flex-direction: column; padding-top: 0%;">
+    <h2 align="result">Result</h2>
+    <div class="values" align="left">
+        <ul style="margin-bottom: 0%;">
+      <li><b>Score=</b>{{score}}/100</li><br>
+      <li><b>Level=</b>{{level}}</li><br>
+       </ul>
+       <h3 style="margin-bottom: 0%;">Issues Identified:</h3>
+       <ul>
+        {% for issue in issues %}
+            <li>{{issue}}</li>
+        {% endfor %}
+       </ul>
+       </div>
+       </div>
+</div>
+{% endif %}
+</div>
+</body>
+</html> 
