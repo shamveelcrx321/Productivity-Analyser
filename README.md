@@ -26,8 +26,8 @@ The database is used to store productivity analysis results so that user data ca
 *Machine learning-based insights<br>
 
 **Author**<br>
-*Shamveel C<br>
-*B.Tech CSE<br>
+Shamveel C<br>
+B.Tech CSE<br>
 
 **License:**<br>
 MIT License
