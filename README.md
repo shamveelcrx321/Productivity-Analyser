@@ -11,7 +11,7 @@ Features:<br>
 *Dynamic result display<br>
 
 **Tech Stack:**<br>
-*Frontend: HTML, CSS, JavaScript<br>
+*Frontend: HTML,CSS<br>
 *Backend: Python (Flask)<br>
 *Database: SQLite<br>
 *Templating: Jinja2<br>
