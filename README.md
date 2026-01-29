@@ -7,10 +7,6 @@ A web-based application that analyzes daily routines, calculates productivity sc
 
 ---
 
-## 💻Interface
-<img width="1350" height="630" alt="image" src="https://github.com/user-attachments/assets/170ebc30-9341-4246-9e19-7a17e24ab393" />
----
-
 ## ✨ Features
 - Daily routine input analysis  
 - Productivity score and level calculation  
