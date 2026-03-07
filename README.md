@@ -39,8 +39,6 @@ The database is used to store productivity analysis results so that user data ca
 
 ## 👤 **Author**
 **Shamveel C**  
-B.Tech CSE  
-
 ---
 
 ## 📄 **License**
